@@ -1,0 +1,15 @@
+The queue Datastructure can be useful in algorithms where you need to process data in order
+Aqueue contains the elements in order they were added
+Elements are inserted at the end and removed form the front
+We can not add of remove elemnet from the middle or start
+Follows FIFO(first in, first out) policy
+
+//Adding and removing items
+
+Enqueue: add an item to the back
+Dequeue: remove an item from the front
+Peek: look at the front item without removing it // we can not check the items in the back
+in order to check the items from back we need to remove all items from front
+
+
+First in, first out might seem like an annoying restriction, but it can be useful if we leverage it as an assumption
